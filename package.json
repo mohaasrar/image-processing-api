@@ -1,0 +1,43 @@
+{
+  "name": "image-processing-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.ts",
+    "jasmine": "jasmine",
+    "test": "npm run build && npm run jasmine",
+    "build": "npx tsc",
+    "lint": "eslint . --ext .ts",
+    "prettify": "prettier --config .prettierrc src --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohaasrar/image-processing-api.git"
+  },
+  "author": "Asrar Mohammed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohaasrar/image-processing-api/issues"
+  },
+  "homepage": "https://github.com/mohaasrar/image-processing-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jasmine": "^4.5.0",
+    "jasmine-spec-reporter": "^7.0.0",
+    "sharp": "^0.31.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/jasmine": "^4.3.1",
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
