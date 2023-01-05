@@ -9,7 +9,7 @@
     "test": "npm run build && npm run jasmine",
     "build": "npx tsc",
     "lint": "eslint . --ext .ts",
-    "prettify": "prettier --config .prettierrc src --write"
+    "prettier": "prettier --config .prettierrc src --write"
   },
   "repository": {
     "type": "git",
@@ -32,6 +32,7 @@
     "@types/express": "^4.17.15",
     "@types/jasmine": "^4.3.1",
     "@types/node": "^18.11.18",
+    "@types/sharp": "^0.31.1",
     "@types/supertest": "^2.0.12",
     "@typescript-eslint/eslint-plugin": "^5.47.1",
     "@typescript-eslint/parser": "^5.47.1",
