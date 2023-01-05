@@ -64,6 +64,6 @@ npm run lint
 
 The API can be accessed using api on the below pattern
 
-- /api/images?fname=612726&width=200&height=200
+- http://localhost:3000/api/images?fname=fjord&width=200&height=200
 
 All Files used are available in the `assets/images/full` folder and the thumbnails file are stored in public/images folder
