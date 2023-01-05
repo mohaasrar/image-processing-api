@@ -1,12 +1,12 @@
 # Image Processing API
 
-Simple Nodejs API for resizing images using [Sharp](https://www.npmjs.com/package/sharp) package
+Nodejs image resizing API using [Sharp](https://www.npmjs.com/package/sharp) package
 
 ## Getting Started
 
 ### Installing dependencies
 
-After cloning the repo, all the project dependencies can be installed using npm:
+After cloning the repo, all the project dependencies can be installed using the below command
 
 ```
 npm install
@@ -14,17 +14,17 @@ npm install
 
 ### Running the server
 
-To execute the application use the following command in terminal:
+To execute the application use the following command on terminal:
 
 ```
 npm run start
 ```
 
-the app will be available on port 3000
+the app will be available on  localhost:3000
 
 ### Scripts
 
-The following actions can be executed through npm scripts:
+The following scripts can be using npm build, to test and linting:
 
 #### compile typescript to javascript
 
@@ -36,7 +36,7 @@ The compiled code will be in `build` folder.
 
 #### Testing
 
-jasmine testing can be done to test main endpont /api and image resizing funtionality using the below command
+jasmine testing can be done to test main endpont /api and image resizing functionality using the below command
 
 ```
 npm run test
@@ -52,7 +52,7 @@ npm run prettier
 
 #### Linting
 
-ESlint has benn used for to correct errors and formating issues the below command can helps to run eslint
+ESlint has been used to correct errors and formatting issues the below command can helps to run eslint
 
 ```
 npm run lint
