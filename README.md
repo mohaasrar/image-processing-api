@@ -64,6 +64,6 @@ npm run lint
 
 The API can be accessed using api on the below pattern
 
-- /api/images?filename=danceforme&width=400&height=400
+- /api/images?fname=612726&width=200&height=200
 
-All Files used are available in the `assets/images/full` folder.
+All Files used are available in the `assets/images/full` folder and the thumbnails file are stored in public/images folder
