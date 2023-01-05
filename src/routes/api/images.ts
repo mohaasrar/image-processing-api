@@ -31,7 +31,6 @@ images.get('/', async (req: express.Request, res: express.Response) => {
 
     if (!fs.existsSync(imagePath)) {
       const resizedImage = await imageResize(fname, h, w);
-      console.log(resizedImage);
       await fsPromises.writeFile(imagePath, resizedImage);
     }
     res.sendFile(path.resolve(imagePath));
