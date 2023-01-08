@@ -6,7 +6,6 @@ export const imageResize = async (
   height: number | null,
   width: number | null
 ): Promise<Sharp> => {
-  //path.resolve(`public/images/full/${filename}.jpg
   const imagepath = path.resolve(`assets/images/full/${fname}.jpg`);
   const resizedimage = await sharp(imagepath)
     .resize(width, height)
